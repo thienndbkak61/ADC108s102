@@ -12,9 +12,9 @@ module counter
 	parameter size = 3
 	)
 (
-	// input clk,
-	// input rst_n,
-	// output reg clk_out
+	input clk,
+	input rst_n,
+	output reg clk_out
 	);
 	reg [size - 1'b1 : 0] Q;
 
